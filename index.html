@@ -1,41 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    
+
     <title>Gadigram - sua rede social</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="wrapper">
-        <!--AREA CONTAINER -->
-        <div id="container">
-            <!--AREA ESQUERDA -->
-            <div class="column left">
-                <div class="main"></div>
-
-            </div>
-            <!--FIM ESQUERDA -->
-
-            <!--AREA DIREITA -->
-            <div class="column right">
-                <div class="login-panel">
-                    <div class="logo">
-                        <img class="logo-img" src="assets/logo.png" alt="Gadigram Logo" />
-                    </div>
-                    <form>
-                        <input type="text" name="username" placeholder="Telefone, usuário ou email" />
-                        <input type="password" name="password" placeholder="Senha" />
-
-                        <input type="submit" value="Entrar"/>
-                    </form>
-                </div>
-            </div>
-            <!--FIM DIREITA -->
+      <!--AREA CONTAINER -->
+      <div id="container">
+        <!--AREA ESQUERDA -->
+        <div class="column left">
+          <div class="main"></div>
         </div>
-        <!--FIM CONTAINER -->
+        <!--FIM ESQUERDA -->
+
+        <!--AREA DIREITA -->
+        <div class="column right">
+        <div class="login-panel">
+          <div class="logo">
+            <img class="logo-img" src="assets/logo.png" alt="Gadigram Logo" />
+          </div>
+          <form>
+            <input
+              type="text"
+              name="username"
+              placeholder="Telefone, usuário ou email"
+            />
+            <input type="password" name="password" placeholder="Senha" />
+
+            <input type="submit" value="Entrar" />
+          </form>
+        </div>
+
+        <div class="infobox">
+          <p>Não possui conta? <a href="#">Cadastre-se</a></p>
+        </div>
+        <div class="get-app-panel">
+          Obtenha o aplicativo.
+          <div class="app-buttons">
+            <a href="#"><img src="assets/appstore.png" alt="App Store" /></a>
+            <a href="#"><img src="assets/googleplay.png" alt="Play Store" /></a>
+          </div>
+        </div>
+        <!--FIM DIREITA -->
+      </div>
+      <!--FIM CONTAINER -->
     </div>
-</body>
+  </body>
 </html>
