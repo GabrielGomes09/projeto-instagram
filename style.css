@@ -25,6 +25,7 @@ body {
 
 #wrapper {
   height: 100vh;
+
 }
 
 #container {
@@ -143,6 +144,7 @@ footer {
   text-align: center;
   height: 50px;
   margin-top: -50px;
+  border-top: 50;
 }
 
 footer a {
@@ -268,7 +270,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
+  right: 0;  
 }
 
 .cabecalho {
@@ -319,4 +321,27 @@ header {
   color: #0095f6;
   text-decoration: none;
   margin-right: 7px;
+}
+
+.post-contente a:hover{
+  text-decoration: underline;
+}
+
+.post{
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.feed-wrapper {
+  padding-top: 75px;
+  width: 100;
+}
+
+#container-feed {
+  margin: 0 auto;
+  min-height: 100%;
+  max-width: 550px;
+  display: flex;
+  align-items: center;
 }
