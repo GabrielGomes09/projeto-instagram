@@ -288,7 +288,6 @@ header {
   display: flex;
   justify-content: left;
   align-items: center;
-  left: 0;
   padding-left: 15px;
 }
 
@@ -303,4 +302,21 @@ header {
   font-size: 14px;
   font-weight: bold;
   color: #000000;
+}
+
+
+.post-content {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+#post-photo {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.post-content a{
+  color: #0095f6;
+  text-decoration: none;
+  margin-right: 7px;
 }
